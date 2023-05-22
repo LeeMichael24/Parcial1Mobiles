@@ -44,7 +44,7 @@ class PcViewModel(private val repository: PcRepository): ViewModel() {
         return true
     }
 
-    private fun clearData() {
+    fun clearData() {
         brand.value = ""
         model.value = ""
     }
@@ -63,7 +63,6 @@ class PcViewModel(private val repository: PcRepository): ViewModel() {
         }
 
         const val MOVIEW_CREATED = "Movie created"
-
         const val WRONG_INFORMATION = "Wrong information"
         const val INACTIVE = ""
     }

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/pcBillboardFragment"
-        android:name="com.example.parcial1mobiles.PcBillboardFragment"
+        android:name="com.example.parcial1mobiles.ui.billboardPc.PcBillboardFragment"
         android:label="fragment_pc_billboard"
         tools:layout="@layout/fragment_pc_billboard" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/pcInfoFragment"
-        android:name="com.example.parcial1mobiles.PcInfoFragment"
+        android:name="com.example.parcial1mobiles.ui.PcInfoFragment"
         android:label="fragment_pc_info"
         tools:layout="@layout/fragment_pc_info" />
     <fragment
         android:id="@+id/pcCreateNewFragment"
-        android:name="com.example.parcial1mobiles.PcCreateNewFragment"
+        android:name="com.example.parcial1mobiles.ui.PcCreateNewFragment"
         android:label="fragment_pc_create_new"
         tools:layout="@layout/fragment_pc_create_new" />
 </navigation>
